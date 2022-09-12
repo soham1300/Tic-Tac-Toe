@@ -1,0 +1,205 @@
+body
+{
+    background-color: black;
+    /*background-image: url(https://static.vecteezy.com/system/resources/previews/002/400/767/original/dark-widesreen-background-with-hexagons-with-different-transparencies-modern-black-geometric-design-simple-illustration-vector.jpg);*/
+    
+}
+.game table
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.game table, tr, td{
+    border-collapse:collapse ;
+}
+.game td
+{
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+.container
+{
+    display: none;
+    text-align: center;
+}
+.td0
+{
+    border-top: none;
+    border-left: none;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+.td1
+{
+    border-top: none;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+.td2
+{
+    border-top: none;
+    border-left: 4px solid white;
+    border-right: none;
+    border-bottom: 4px solid white;    
+}
+.td3
+{
+    border-top: 4px solid white;
+    border-left: none;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+.td4
+{
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+.td5
+{
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: none;
+    border-bottom: 4px solid white;
+}
+.td6
+{
+    border-top: 4px solid white;
+    border-left: none;
+    border-right: 4px solid white;
+    border-bottom: none;
+}
+.td7
+{
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: none;
+}
+.td8
+{
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: none;
+    border-bottom: none;
+}
+.PlayerName
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.gameName
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1cm;
+    color: white;
+}
+.p1
+{
+    height: 1cm;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+.p2
+{
+    height: 1cm;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+.startBtn
+{
+    height: 1cm;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 15px ;
+}
+.startBtn:hover
+{
+    color: black;
+    background-color: white;
+}
+.gameName1
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.5cm;
+    color: white;
+}
+.Score td{
+    border:2px solid white;
+    font-size: 20px;
+    padding: 0px 15px;
+    color: white;
+}
+.Score table,tr,td
+{
+    border-collapse:collapse ;
+}
+.Score table{
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+.resetBtn
+{
+    height: 1cm;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    height: 1cm;
+    width: 4cm;
+    border-radius: 15px ;
+}
+.resetBtn:hover
+{
+    color: black;
+    background-color: white;
+}
+.newBtn
+{
+    height: 1cm;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    height: 1cm;
+    width: 4cm;
+    border-radius: 15px ;
+    margin-top: 50px;
+}
+.newBtn:hover
+{
+    color: black;
+    background-color: white;
+}

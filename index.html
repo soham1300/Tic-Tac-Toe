@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Soham Bhogale">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="PlayerNamePage">
+        <div class="gameName">
+            <h1>PLAY</h1>
+            <h2>TIC TAC TOE</h2>
+        </div>
+        <div class="PlayerName">
+            <table>
+                <tr>
+                    <td><h2>Player 1 Name</h2></td>
+                    <td><h2>Player 2 Name</h2></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="p1" class="p1" value=""></td>
+                    <td><input type="text" id="p2" class="p2" value=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br><input type="button" value="Start" onclick="startGame()" class="startBtn"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="gameName1">
+            <h1>PLAY</h1>
+            <h2>TIC TAC TOE</h2>
+        </div>
+        <div class="game">
+            <table class="game1">
+                <tr>
+                    <td id="0" class="td0"></td>
+                    <td id="1" class="td1"></td>
+                    <td id="2" class="td2"></td>
+                </tr>
+                <tr>
+                    <td id="3" class="td3"></td>
+                    <td id="4" class="td4"></td>
+                    <td id="5" class="td5"></td>
+                </tr>
+                <tr>
+                    <td id="6" class="td6"></td>
+                    <td id="7" class="td7"></td>
+                    <td id="8" class="td8"></td>
+                </tr>
+            </table>
+            <input type="button" value="Reset Game" onclick="resetGame()" class="resetBtn">
+            <input type="button" value="New Game" onclick="newGame()" class="newBtn">
+        </div>
+    
+        <div class="Score">
+            <table>
+                <tr>
+                    <td><p id="player1"></p></td>
+                    <td><p id="player2"></p></td>
+                </tr>
+                <tr>
+                    <td><p id="p1Score">0</p></td>
+                    <td><p id="p2Score">0</p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
